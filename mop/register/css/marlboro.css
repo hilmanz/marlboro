@@ -1,0 +1,456 @@
+/*
+	 Acit Jazz 2011
+	 CendekiaApp [Editor]
+	 MARLBORO LIGHTS CONNECTOIONS
+*/
+
+body {
+	background:url(https://www.marlboro.co.id/images/bg_new.png) center top no-repeat #91daf9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000;
+	margin:0;
+	padding:0 0 40px 0;
+	text-align:center;
+}
+body.landingPage {
+	background:url(https://www.marlboro.co.id/images/bg_new.png) center top no-repeat #91daf9;
+}
+body.landingPage .mainPage {
+	text-align:center;
+}
+body.landingPage .formLanding {
+	background:url(https://www.marlboro.co.id/images/greeting_text.png) no-repeat;
+	padding:375px 0 0 580px;
+	position: relative;
+}
+.landing-page {
+	background:url(https://www.marlboro.co.id/images/landing_text.png) no-repeat;
+	width:725px;
+	height:438px;
+	margin:0 auto 150px auto;
+}
+a.begin {
+	display:block;
+	width:331px;
+	height:37px;
+	text-decoration:none;
+	position:absolute;
+	margin:400px 0 0 380px;
+}
+a {
+	color:#C00;
+	outline:none;
+}
+a:hover {
+	color:#F00;
+}
+h1, h2, h3 {
+	margin:8px 0;
+	font-weight:bold;
+	color:#C00;
+	text-transform:capitalize;
+}
+h1 {
+	font-size:18px;
+}
+h2 {
+	font-size:16px;
+}
+h3 {
+	font-size:14px;
+}
+form {
+	margin:0;
+	padding:0;
+}
+.intro h1 {
+	font-size:35px;
+}
+#Form1 {
+	padding-top:20px;
+}
+.mainPage {
+	width:960px;
+	background:url(https://www.marlboro.co.id/images/town.png) no-repeat center bottom;
+	margin:auto auto;
+	text-align:left;
+	padding:0 0 50px 0;
+}
+.footer {
+	text-align:center;
+	position:relative;
+	margin: 100px 0 0;
+}
+#UpdateProfileChange .footer{
+	margin: 0;
+	}
+.footer .text{
+	background: url(https://www.marlboro.co.id/images/foot.png) no-repeat scroll center center transparent;
+    font-family: trebuchet MS;
+    font-size: 11px;
+    height: 120px;
+    left: 135px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -50px;
+	font-weight:bold;
+	}
+.footer .navigation{
+	left: 150px;
+    position: absolute;
+    top: 55px;
+	}
+#UpdateProfileChange .footer .text{
+	background: url(https://www.marlboro.co.id/images/foot.png) no-repeat scroll center center transparent;
+    height: 120px;
+	left: 630px;
+	}
+
+#UpdateProfileChange .footer .navigation{
+	   left: 643px;
+}
+#UpdateProfileChange #chkConfirmAbove18{
+	left: 20px;
+    position: absolute;
+    top: 15px;
+    width: 15px;
+	}
+.footer ul {
+	margin:0;
+	padding:0;
+}
+.footer ul li {
+	display:inline;
+}
+.footer ul li a {
+	color:#000;
+}
+fieldset, .r3UploadSection, .r3FaxSection {
+	margin:20px 0;
+	padding:10px 10px 10px 10px;
+	background:url(https://www.marlboro.co.id/images/tr.png) repeat;
+	border:none;
+}
+p.r3UploadSection {
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	border:none;
+}
+fieldset h2, .r3UploadSection h2, .r3FaxSection h2 {
+	background:url(https://www.marlboro.co.id/images/tr.png) repeat;
+	padding:8px 30px;
+	display:inline-block;
+	margin:0;
+	border-bottom:dashed 1px #67a791;
+	border-right:solid 5px #67a791;
+	border-left:solid 5px #67a791;
+	color:#000;
+	-moz-border-radius:15px 15px 0 0;
+	-webkit-border-radius:15px 15px 0 0;
+	border-radius:15px 15px 0 0;
+}
+fieldset h2 p, .r3UploadSection h2 p, .r3FaxSection h2 p {
+	margin:0;
+}
+.header {
+	padding:0;
+}
+.r3UploadSection {
+	-moz-box-shadow:none;
+}
+.r3FaxSection ol {
+	display:block;
+	clear:both;
+	padding:15px 25px;
+	background:url(https://www.marlboro.co.id/images/tr_white.png) repeat;
+	color:#666666;
+	border-bottom:dashed 1px #67a791;
+	border-right:solid 5px #67a791;
+	border-left:solid 5px #67a791;
+	margin:0;
+}
+.r3FaxSection ol li {
+	margin-left:40px;
+	padding:20px 0;
+}
+#Form1 .row{
+	display:block;
+	clear:both;
+	padding:15px 25px;
+	background:url(https://www.marlboro.co.id/images/tr_white.png) repeat;
+	color:#666666;
+	border-bottom:dashed 1px #67a791;
+	border-right:solid 5px #67a791;
+	border-left:solid 5px #67a791;
+	margin:0;
+	position:relative;
+}
+ p.r3UploadSection, .r3FaxSection p{
+	 margin:0;
+}
+.row label, .col_left, .fullWidthLabel {
+	display:inline-block;
+	width:200px;
+	margin:0;
+}
+.regSection2 .checkbox{
+	width:190px;
+	}
+
+.row label.radio {
+	width:60px;
+}
+.row table td {
+	text-align:center;
+}
+.row table td input[type=radio] {
+	margin:0;
+}
+.row table {
+	display:inline-block;
+}
+input[type=radio] {
+	margin:0 20px 0 0;
+}
+input[type=text] {
+	background:#fff;
+	width:212px;
+	height:24px;
+	border:none;
+	padding:3px 4px;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+input.dob {
+	width:50px;
+}
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {
+}
+input[type=submit]:focus {
+}
+.navigation ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li {
+	display:inline;
+}
+.navigation ul li a {
+	font-family: trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+	color:#CC9933;
+	}
+.error {
+	margin:0;
+	color:#F00;
+	font-size:10px;
+}
+.submit {
+	padding:20px 0;
+	display:inline-block;
+}
+#lnkSubmitBtn, #lnkEditBtn, #lnkBtnSaveForm, #lnkBtnPrintForm, #lnkBtnContinue, #lnkBtnAccessWebCam, #lnkBtnCaptureContinue, #lnkBtnUploadingContinue, #lnkSubmit, #lnkBtnSubmit, #lnkButton {
+	background:url(https://www.marlboro.co.id/images/bg_submit.gif) repeat-x;
+	border: outset 2px #359587;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:5px 15px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff;
+}
+#lnkBtnUploadingContinue p{
+	margin: 0;
+    padding: 0;
+	}
+body#CompleteTempUser a{
+	background:url(https://www.marlboro.co.id/images/bg_submit.gif) repeat-x;
+	border: outset 2px #359587;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:5px 15px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff;
+	}
+#lnkSubmitBtn:hover, #lnkEditBtn:hover, #lnkBtnSaveForm:hover, #lnkBtnPrintForm:hover, #lnkBtnContinue:hover, #lnkButton:hover {
+	border: inset 2px #359587;
+}
+.phoneGroup, .example {
+	display: inline-block;
+}
+.example {
+	padding:0 10px;
+	color:#999;
+}
+.row label.checkboxLabel, row label.checkbox {
+	width:600px;
+	display:inline-block;
+}
+#phPDFTitle br {
+	display:none;
+	margin:0;
+}
+#phRadBtn {
+	display:none;
+	visibility:hidden;
+}
+.loginBox {
+	width:254px;
+	height:278px;
+	margin:0 auto;
+	text-align:left;
+}
+.loginBox .row {
+	background:none;
+	padding:5px 0;
+}
+.loginBox .row label {
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+}
+.loginBox h1 {
+	color:#000;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:20px 15px 0 15px;
+	margin:0;
+}
+.loginBox input[type=text], .loginBox input[type=password] {
+	background:#fff;
+	width:212px;
+	height:24px;
+	border:none;
+	padding:3px 4px;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+.loginBox .smSubmit a {
+}
+.smSubmit {
+	padding:0 15px;
+	display:block;
+	text-align:center;
+}
+.smSubmit a {
+	background:url(https://www.marlboro.co.id/images/bg_submit.gif) repeat-x;
+	border: outset 2px #359587;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:5px 0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff;
+}
+.loginBox .smSubmit {
+	position:absolute;
+	margin:-33px 0 0 213px;
+}
+.loginBox .smSubmit a, #lnkBtnRegister {
+	background:none;
+	border: none;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:5px 0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	display:block;
+	font-weight:normal;
+	text-align:left;
+	width:50px;
+	color:#fff;
+	text-shadow:none;
+	font-size:12px;
+}
+.loginBox .smSubmit a:hover {
+	border:none;
+	color:#C00;
+}
+.smSubmit a:hover {
+	border: inset 2px #359587;
+}
+.forgottenpassword {
+	padding:5px 0;
+}
+.forgottenpassword a {
+	display:inline-table;
+	text-decoration:none;
+	font-size:12px;
+	color:#fff;
+	text-transform:uppercase;
+}
+#divRegisterBox {
+	left: 628px;
+    /*margin: -159px 0 0 48px;*/
+    position: absolute;
+    top: 520px;
+}
+#LightBox {
+	background-color: White;
+	display: block;
+	height: 420px;
+	left: 30%;
+	margin: 0 auto;
+	position: absolute;
+	top: 20%;
+	width: 740px;
+	z-index: 3001;
+}
+#LightBox #lbClose {
+	height: 7%;
+	width: 100%;
+}
+#ContentID {
+	height: 93%;
+	margin-left: 18px;
+	margin-right: 20px;
+	width: auto;
+}
+
+body.landingPage #lnkBtnSubmit{
+	background: none repeat scroll 0 0 transparent;
+   	border: medium none;
+    	border-radius: 0 0 0 0;
+    	color: #FFFFFF;
+    	display: block;
+    	font-size: 12px;
+    	font-weight: normal;
+    	padding: 5px 0;
+    	text-align: left;
+    	text-decoration: none;
+    	text-shadow: none;
+    	text-transform: uppercase;
+    	width: 50px;
+}
+.regSection2 .row label.checkboxLabel{
+	width:850px;
+	margin-left:30px;
+	}

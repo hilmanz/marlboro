@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+<script type="text/javascript">
+        function preloader(){
+            document.getElementById("preloader").style.display = "none";
+            document.getElementById("container").style.display = "block";
+        }//preloader
+        window.onload = preloader;
+</script>
+<style>
+div#container {
+    display: none;
+    }
+
+div#preloader {             
+    top: 0; right: 10px;
+    position:absolute;
+    z-index:1000;
+    width: 132px; height: 38px;
+    background: url(images/89.gif) center center no-repeat;
+    cursor: wait;
+    text-shadow: 0px 1px 0px #fefefe;                 
+    }
+</style>
+<body>
+    <div id="preloader">Loading... Please Wait.</div>
+    <div id="container">
+		<img src="images/bg.png" alt="" id="background" />
+    </div>
+</body>
+
+</html>
